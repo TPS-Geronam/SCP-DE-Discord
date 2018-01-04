@@ -2,6 +2,8 @@ en
 http://www.scp-wiki.net/
 int
 http://scp-int.wikidot.com/
+de
+http://scp-wiki-de.wikidot.com/
 ru
 http://scpfoundation.ru/
 ko
