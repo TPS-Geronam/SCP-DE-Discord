@@ -1,4 +1,5 @@
-SCP-DE-DiscordBot-Project
+_SCP-DE-DiscordBot-Project_
 
-KIRA-BOT
-was coded by TPS-Geronam in C#.
+The files in this repository get accessed by KIRA_BOT.
+
+In other words - nothing interesting here.
