@@ -1,0 +1,4 @@
+2.5.9
+  - now uses Octokit.NET
+  - now posts notices about updates in predefined channel
+  - minor fixes
