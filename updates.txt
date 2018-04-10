@@ -1,4 +1,5 @@
 2.5.9
   - now uses Octokit.NET
-  - now posts notices about updates in predefined channel
+    - posts notices about updates in predefined channel
+  - anti-raid added (!admin_ set raidBool <bool>; ads new users to "Stumm")
   - minor fixes
