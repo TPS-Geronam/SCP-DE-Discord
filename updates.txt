@@ -1,5 +1,10 @@
-2.5.9
-  - now uses Octokit.NET
-    - posts notices about updates in predefined channel
-  - anti-raid added (!admin_ set raidBool <bool>; adds new users to "Stumm")
-  - minor fixes
+2.5.10: 
+    - moved info about Octokit to !admin_ octokit
+    - added "!feedback <###>"
+          - added "!admin_ set feedbackBlock <IUser>" (block user from being able to use !feedback)
+          - added "!admin_ set feedbackC <ulong>" (feedback chan)
+    - added RSS log for O5
+          - added "!admin_ set canPing <bool>" (O4-ping in #o4-log)
+          - added "!admin_ set o5TC <ulong>" (chan)
+    - added bool for "user left server" notification ("!admin_ set leftBool <bool>")
+    - minor fixes
