@@ -1,4 +1,4 @@
-_KIRA_BOT_
+# KIRA_BOT
 
 The files in this repository get accessed by KIRA_BOT.
 
