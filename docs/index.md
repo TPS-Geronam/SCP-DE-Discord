@@ -2,6 +2,10 @@
 
 For the English version (F.KIRA), see [this](/docs/english.md) page.
 
-The files in this repository get accessed by KIRA_BOT.
+1. Commands
+2. Events
 
-In other words - nothing interesting here.
+## Commands
+
+> !help
+Shows a list of all commands accessible to the normal user.
