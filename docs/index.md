@@ -21,6 +21,7 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 **Aliases:** /
 
+<br><br>
 
 > !search <>
 
