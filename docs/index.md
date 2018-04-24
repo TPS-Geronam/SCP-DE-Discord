@@ -12,6 +12,8 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 ## Commands
 
+### Allgemeine Commands
+
 > !help
 
 **Beschreibung:** Zeigt eine Liste aller für den einfachen User zugängelicher Commands an.
@@ -21,6 +23,78 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 **Aliases:** /
 
 <br><br>
+
+> !user [user]
+
+**Beschreibung:** Zeigt Info über den angegebenen User an (`@Username#1234`). Wenn kein User angegeben wird, zeigt der Command Info über denjenigen an, der den Command ausgeführt hat.
+
+**Berechtigungen:** /
+
+**Aliases:** `!userinfo [user]`
+
+<br><br>
+
+> !info
+
+**Beschreibung:** Zeigt Info über KIRA an.
+
+**Berechtigungen:** /
+
+**Aliases:** `!status`
+
+> !format
+
+<br><br>
+
+> !witz
+
+**Beschreibung:** Erzählt einen Witz aus einer in diesem Repo vorhandenen Liste.
+
+**Berechtigungen:** `Personal`-Rolle
+
+**Aliases:** /
+
+<br><br>
+
+> !danke
+
+**Beschreibung:** Antwortet mit einem zufälligen Satz.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !danke <user>
+
+**Beschreibung:** Bedankt sich bei `<user>` mit einem zufälligen Satz.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !dice [seiten] [anzahl]
+
+**Beschreibung:** Würfelt einen Würfel. Wenn die `[seiten]` oder die `[anzahl]` nicht angegeben wird, werden die Werte `6` und `1` verwendet.
+
+**Berechtigungen:** /
+
+**Aliases:** `!würfel [seiten] [anzahl]`
+
+<br><br>
+
+> !willkommen <user>
+
+**Beschreibung:** Heißt `<user>` mit einem zufälligen Satz willkommen.
+
+**Berechtigungen:** /
+
+**Aliases:** `!welcome <user>`
+
+### Link-Commands
 
 > !seite-o <link>
 
@@ -52,26 +126,6 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
-> !user [user]
-
-**Beschreibung:** Zeigt Info über den angegebenen User an (`@Username#1234`). Wenn kein User angegeben wird, zeigt der Command Info über denjenigen an, der den Command ausgeführt hat.
-
-**Berechtigungen:** /
-
-**Aliases:** `!userinfo [user]`
-
-<br><br>
-
-> !info
-
-**Beschreibung:** Zeigt Info über KIRA an.
-
-**Berechtigungen:** /
-
-**Aliases:** `!status`
-
-<br><br>
-
 > !google <text>
 
 **Beschreibung:** Verlink etwas bei Google, indem `<text>` an `https://www.google.de/`angehängt wird.
@@ -82,23 +136,11 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
-> !format
-
 **Beschreibung:** Verlinkt die Support-Seite zu der Formatierung von Discord.
 
 **Berechtigungen:** /
 
 **Aliases:** `!markdown`
-
-<br><br>
-
-> !witz
-
-**Beschreibung:** Erzählt einen Witz aus einer in diesem Repo vorhandenen Liste.
-
-**Berechtigungen:** `Personal`-Rolle
-
-**Aliases:** /
 
 <br><br>
 
@@ -172,76 +214,6 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
-> !guid
-
-**Beschreibung:** Erzeugt eine GUID für `!shd`.
-
-**Berechtigungen:** GuildPermission.ManageChannels
-
-**Aliases:** /
-
-<br><br>
-
-> !shd <guid>
-
-**Beschreibung:** Fährt den Bot herunter, solange die richtige GUID angegeben wird.
-
-**Berechtigungen:** GuildPermission.ManageChannels
-
-**Aliases:** /
-
-<br><br>
-
-> !danke
-
-**Beschreibung:** Antwortet mit einem zufälligen Satz.
-
-**Berechtigungen:** /
-
-**Aliases:** /
-
-<br><br>
-
-> !danke <user>
-
-**Beschreibung:** Bedankt sich bei `<user>` mit einem zufälligen Satz.
-
-**Berechtigungen:** /
-
-**Aliases:** /
-
-<br><br>
-
-> !willkommen <user>
-
-**Beschreibung:** Heißt `<user>` mit einem zufälligen Satz willkommen.
-
-**Berechtigungen:** /
-
-**Aliases:** `!welcome <user>`
-
-<br><br>
-
-> !dice [seiten] [anzahl]
-
-**Beschreibung:** Würfelt einen Würfel. Wenn die `[seiten]` oder die `[anzahl]` nicht angegeben wird, werden die Werte `6` und `1` verwendet.
-
-**Berechtigungen:** /
-
-**Aliases:** `!würfel [seiten] [anzahl]`
-
-<br><br>
-
-> !dice [seiten] [anzahl]
-
-**Beschreibung:** Würfelt einen Würfel. Wenn die `[seiten]` oder die `[anzahl]` nicht angegeben wird, werden die Werte `6` und `1` verwendet.
-
-**Berechtigungen:** /
-
-**Aliases:** `!würfel [seiten] [anzahl]`
-
-<br><br>
-
 > !forum
 
 **Beschreibung:** Verlinkt die Forum-Startseite des SCP-DE-Wikis.
@@ -307,5 +279,25 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 **Beschreibung:** Verlinkt einen Zweig und dessen Discord, solange `<kuerzel>` in der Liste in diesem Repo angegeben ist.
 
 **Berechtigungen:** /
+
+**Aliases:** /
+
+### Spezielle Commands
+
+> !guid
+
+**Beschreibung:** Erzeugt eine GUID für `!shd`.
+
+**Berechtigungen:** GuildPermission.ManageChannels
+
+**Aliases:** /
+
+<br><br>
+
+> !shd <guid>
+
+**Beschreibung:** Fährt den Bot herunter, solange die richtige GUID angegeben wird.
+
+**Berechtigungen:** GuildPermission.ManageChannels
 
 **Aliases:** /
