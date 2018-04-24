@@ -94,6 +94,8 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 **Aliases:** `!welcome <user>`
 
+<br><br>
+
 ### Link-Commands
 
 > !seite-o <link>
@@ -281,6 +283,8 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 **Berechtigungen:** /
 
 **Aliases:** /
+
+<br><br>
 
 ### Spezielle Commands
 
