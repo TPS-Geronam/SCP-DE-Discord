@@ -24,7 +24,7 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 > !seite-o <link>
 
-**Beschreibung:** Verlinkt eine Seite im DE-Wiki, indem `<link>` and `http://scp-wiki-de.wikidot.com/` angehängt wird.
+**Beschreibung:** Verlinkt eine Seite im DE-Wiki, indem `<link>` an `http://scp-wiki-de.wikidot.com/` angehängt wird.
 
 **Berechtigungen:** /
 
@@ -34,7 +34,7 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 > !en-seite-o <link>
 
-**Beschreibung:** Verlinkt eine Seite im EN-Wiki, indem `<link>` and `http://scp-wiki.net/` angehängt wird.
+**Beschreibung:** Verlinkt eine Seite im EN-Wiki, indem `<link>` an `http://scp-wiki.net/` angehängt wird.
 
 **Berechtigungen:** /
 
@@ -44,7 +44,7 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 > !int-seite-o <link>
 
-**Beschreibung:** Verlinkt eine Seite im INT-Wiki, indem `<link>` and `http://scp-int.wikidot.com/` angehängt wird.
+**Beschreibung:** Verlinkt eine Seite im INT-Wiki, indem `<link>` an `http://scp-int.wikidot.com/` angehängt wird.
 
 **Berechtigungen:** /
 
@@ -139,3 +139,173 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 **Berechtigungen:** /
 
 **Aliases:** `!art`, `!fanart`
+
+<br><br>
+
+> !wiki
+
+**Beschreibung:** Verlinkt die Hauptseite des SCP-DE-Wikis.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !sandbox [link]
+
+**Beschreibung:** Verlinkt die Hauptseite und den Index der SCP-DE-Sandbox. Wenn `[link]` angegeben ist, wird eine Sandbox verlinkt, indem `[link]` an `http://scpsandboxde.wikidot.com/` angehängt wird.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !chars
+
+**Beschreibung:** Verlinkt die Charakter-Seite des SCP-DE-Wikis.
+
+**Berechtigungen:** /
+
+**Aliases:** `!charaktere`
+
+<br><br>
+
+> !guid
+
+**Beschreibung:** Erzeugt eine GUID für `!shd`.
+
+**Berechtigungen:** GuildPermission.ManageChannels
+
+**Aliases:** /
+
+<br><br>
+
+> !shd <guid>
+
+**Beschreibung:** Fährt den Bot herunter, solange die richtige GUID angegeben wird.
+
+**Berechtigungen:** GuildPermission.ManageChannels
+
+**Aliases:** /
+
+<br><br>
+
+> !danke
+
+**Beschreibung:** Antwortet mit einem zufälligen Satz.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !danke <user>
+
+**Beschreibung:** Bedankt sich bei `<user>` mit einem zufälligen Satz.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !willkommen <user>
+
+**Beschreibung:** Heißt `<user>` mit einem zufälligen Satz willkommen.
+
+**Berechtigungen:** /
+
+**Aliases:** `!welcome <user>`
+
+<br><br>
+
+> !dice [seiten] [anzahl]
+
+**Beschreibung:** Würfelt einen Würfel. Wenn die `[seiten]` oder die `[anzahl]` nicht angegeben wird, werden die Werte `6` und `1` verwendet.
+
+**Berechtigungen:** /
+
+**Aliases:** `!würfel [seiten] [anzahl]`
+
+<br><br>
+
+> !dice [seiten] [anzahl]
+
+**Beschreibung:** Würfelt einen Würfel. Wenn die `[seiten]` oder die `[anzahl]` nicht angegeben wird, werden die Werte `6` und `1` verwendet.
+
+**Berechtigungen:** /
+
+**Aliases:** `!würfel [seiten] [anzahl]`
+
+<br><br>
+
+> !forum
+
+**Beschreibung:** Verlinkt die Forum-Startseite des SCP-DE-Wikis.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !scp-schreiben
+
+**Beschreibung:** Verlinkt Hilfe-Seiten zum SCP-Schreiben des SCP-DE-Wikis, darunter den Neueinsteiger-Guide, "Wie schreibt man ein SCP?" und die allgemeine Hilfe-Seite.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !de-credits
+
+**Beschreibung:** Verlinkt die Credits-Seite der SCP-DEs des SCP-DE-Wikis.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !de-kanon <name>
+
+**Beschreibung:** Verlinkt einen Kanon des SCP-DE-Wikis, solange `<name>` in der Liste in diesem Repo angegeben ist.
+
+**Berechtigungen:** /
+
+**Aliases:** `!kanon <name>`, `!canon <name>`
+
+<br><br>
+
+> !de-goi <kuerzel>
+
+**Beschreibung:** Verlinkt eine GoI des SCP-DE-Wikis, solange `<kuerzel>` in der Liste in diesem Repo angegeben ist.
+
+**Berechtigungen:** /
+
+**Aliases:** `!goi <kuerzel>`
+
+<br><br>
+
+> !autor <name>
+
+**Beschreibung:** Verlinkt einen Autor des SCP-DE-Wikis, solange `<name>` in der Liste in diesem Repo angegeben ist.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !branch <kuerzel>
+
+**Beschreibung:** Verlinkt einen Zweig und dessen Discord, solange `<kuerzel>` in der Liste in diesem Repo angegeben ist.
+
+**Berechtigungen:** /
+
+**Aliases:** /
