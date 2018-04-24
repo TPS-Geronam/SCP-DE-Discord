@@ -96,6 +96,38 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
+#### Kritik-Commands
+
+> !kritik liste
+
+**Beschreibung:** Zeigt die Kritik-Liste an.
+
+**Berechtigungen:** `Personal`-Rolle
+
+**Aliases:** /
+
+<br><br>
+
+> !kritik neu <user> <link>
+
+**Beschreibung:** Erstellt einen neuen Kritik-Eintrag. `<user>` entspricht dem Autor und `<link>` dem Link zu der Sandbox/dem Forum-Thread.
+
+**Berechtigungen:** `Personal`-Rolle
+
+**Aliases:** /
+
+<br><br>
+
+> !kritik entfernen <id>
+
+**Beschreibung:** Löscht einen Kritik-Eintrag. `<id>` entspricht der ID des Eintrags, die mit `!kritik liste` einsehbar ist.
+
+**Berechtigungen:** `Personal`-Rolle
+
+**Aliases:** /
+
+<br><br>
+
 ### Link-Commands
 
 > !seite-o <link>
@@ -283,6 +315,28 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 **Berechtigungen:** /
 
 **Aliases:** /
+
+<br><br>
+
+#### Such-Commands
+
+> !search <zweig> <name>
+
+**Beschreibung:** Sucht nach einem Artikel. `<zweig>` entspricht dem Kürzel des Zweigs, in dem gesucht werden soll, und `<name>` entpsricht dem gesuchten Seitennamen.
+
+**Berechtigungen:** /
+
+**Aliases:** `!suchen <zweig> <name>`, `!s <zweig> <name>`
+
+<br><br>
+
+> !search-tags <zweig> <tags>
+
+**Beschreibung:** Sucht nach einem Artikel mit Tags. `<zweig>` entspricht dem Kürzel des Zweigs, in dem gesucht werden soll, und `<tags>` entpsricht den Tags, mit denen gesucht werden soll. Tags werden mit einem Komma ohne Leerzeichen abgetrennt (`,`). Ein Minus (`-`) vor einem Tag (ebenfalls ohne Leerzeichen) bedeutet, dass die Seiten mit diesem Tag nicht aufgeführt werden. Ein Plus (`+`) vor einem Tag bedeutet, dass die Seiten mit diesem Tag angezeigt werden müssen.
+
+**Berechtigungen:** /
+
+**Aliases:** `!suchen-tags <zweig> <tags>`, `!st <zweig> <tags>`
 
 <br><br>
 
