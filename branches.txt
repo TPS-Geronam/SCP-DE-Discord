@@ -1,12 +1,6 @@
 en
 http://www.scp-wiki.net/
 /
-EN
-http://www.scp-wiki.net/
-/
-En
-http://www.scp-wiki.net/
-/
 int
 http://scp-int.wikidot.com/
 https://discord.gg/3umAxN5
