@@ -96,6 +96,95 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
+> !syntax <command>
+
+**Beschreibung:** Zeigt die Syntax von einem Command an. `<command>` entspricht dem Command ohne dem Prefix.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !steam <titel>
+
+**Beschreibung:** Sucht nach einem Spiel in Steam. `<titel>` entspricht dem Spieletitel, nach dem gesucht werden soll. Abkürzungen wie `CSGO`, `TF2` oder `CoD` werden nicht unterstützt.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !feedback <text>
+
+**Beschreibung:** Sendet Feedback über Discord/Wiki/KIRA an die O4s. Nur in PNs ausführbar.
+
+**Berechtigungen:** `Personal`-Rolle, Channel.IsPrivate
+
+**Aliases:** /
+
+<br><br>
+
+#### Tag-Commands
+
+**Q:** Was sind Tags?
+**A:** Tags sind sogesehen beschriftete Container mit Inhalt. Der Name auf dem Container gleicht dem Namen des Tags, der Inhalt des Containers gleicht dem Inhalt des Tags. So kann z.B. als Inhalt ein Link oder sonstiger Text dienen.
+
+<br><br>
+
+> !tag show all
+
+**Beschreibung:** Listet alle Tags auf (Namen).
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
+> !tag add <name> <inhalt>
+
+**Beschreibung:** Erstellt einen neuen Tag. `<name>` entspricht dem Namen und `<inhalt>` dem Inhalt in Form von Text des Tags.
+
+**Berechtigungen:** GuildPermission.ManageChannels
+
+**Aliases:** /
+
+<br><br>
+
+> !tag add-embed <name> <thumbnail-url> <autor> <autor-icon-url> <titel> <beschreibung> <feld-name> <feld-inhalt> <bild-url> <footer-text> <footer-icon-url>
+
+**Beschreibung:** Erstellt einen neuen Tag mit einem Embed. `<name>` ist der Name, `<thumbnail-url>` ist die URL zu dem Thumbnail, `<autor>` ist der Name des Autors, `<autor-icon-url>` ist der Link zu dem Autor-Icon, `<titel>` ist der Titel des Embeds, `<beschreibung>` ist die Beschreibung des Embeds, `<feld-name>` ist der Name bzw. Titel des Feldes, `<feld-inhalt>` ist der Inhalt in Form von Text des Feldes, `<bild-url>` ist die URL zu dem Bild, `<footer-text>` ist der Text im Footer und `<footer-icon-url>` ist die URL zu dem Bild im Footer.
+
+**Berechtigungen:** GuildPermission.ManageChannels
+
+**Aliases:** /
+
+**Notizen:** Jeder Parameter werden mit Anführungszeichen angegeben, damit Leerzeichen akzeptiert werden können. Falls ein Parameter leer bleiben soll, so muss `""` verwendet werden.
+
+<br><br>
+
+> !tag delete <name>
+
+**Beschreibung:** Entfernt einen Tag. `<name>` entspricht dem Namen des Tags, der entfernt werden soll.
+
+**Berechtigungen:** GuildPermission.ManageChannels
+
+**Aliases:** /
+
+<br><br>
+
+> !tag <name>
+
+**Beschreibung:** Zeigt einen Tag mit dessen Inhalt an. `<name>` entspricht dem Namen des Tags, der angezeigt werden soll.
+
+**Berechtigungen:** /
+
+**Aliases:** /
+
+<br><br>
+
 #### Kritik-Commands
 
 > !kritik liste
@@ -337,6 +426,16 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 **Berechtigungen:** /
 
 **Aliases:** `!suchen-tags <zweig> <tags>`, `!st <zweig> <tags>`
+
+<br><br>
+
+> !search-user <zweig> <username>
+
+**Beschreibung:** Sucht nach einem User mit dessen Namen. `<zweig>` entspricht dem Kürzel des Zweigs, in dem gesucht werden soll, und `<username>` entpsricht dem Usernamen des gesuchten Users.
+
+**Berechtigungen:** /
+
+**Aliases:** `!suchen-user <zweig> <username>`, `!su <zweig> <username>`
 
 <br><br>
 
