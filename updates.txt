@@ -1,5 +1,22 @@
-2.5.11: 
-    - added "!admin_ execute <Action>"
+2.6.0: 
+    - added antispam
+            - added !report <user>
+            - added !raid
+    - now uses Google & YouTube API
+            - added !youtube
+            - changed !google
+    - added !admin_ set bufferDuplicate
+    - added !admin_ set bufferSameAuthor
+    - added !admin_ set interval
+    - added !admin_ set maxChars
+    - added !admin_ set invervalInvite
+    - added !admin_ set interC
+    - added !admin_ set reportsUntilMute
+    - optimized a bunch of link commands with embeds
     - optimized !feedback
+    - optimized !branch
+    - optimized !goi
+    - optimized !autor
+    - optimized !artwork
     - optimized some commands and parameters
-    - minor fixes
+    - fixes
