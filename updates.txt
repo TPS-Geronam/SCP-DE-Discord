@@ -19,4 +19,5 @@
     - optimized !autor
     - optimized !artwork
     - optimized some commands and parameters
+    - sanitized Sentry PMs
     - fixes
