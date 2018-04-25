@@ -129,6 +129,7 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 #### Tag-Commands
 
 **Q:** Was sind Tags?
+
 **A:** Tags sind sogesehen beschriftete Container mit Inhalt. Der Name auf dem Container gleicht dem Namen des Tags, der Inhalt des Containers gleicht dem Inhalt des Tags. So kann z.B. als Inhalt ein Link oder sonstiger Text dienen.
 
 <br><br>
