@@ -42,8 +42,6 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 **Aliases:** `!status`
 
-> !format
-
 <br><br>
 
 > !witz
@@ -162,7 +160,7 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 **Aliases:** /
 
-**Notizen:** Jeder Parameter werden mit Anführungszeichen angegeben, damit Leerzeichen akzeptiert werden können. Falls ein Parameter leer bleiben soll, so muss `""` verwendet werden.
+**Notizen:** Jeder Parameter wird mit Anführungszeichen angegeben, damit Leerzeichen akzeptiert werden können. Falls ein Parameter leer bleiben soll, so muss `""` verwendet werden.
 
 <br><br>
 
@@ -260,14 +258,6 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
-**Beschreibung:** Verlinkt die Support-Seite zu der Formatierung von Discord.
-
-**Berechtigungen:** /
-
-**Aliases:** `!markdown`
-
-<br><br>
-
 > !scp-de
 
 **Beschreibung:** Verlinkt die deutsche SCP-DE-Liste.
@@ -325,6 +315,16 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 **Berechtigungen:** /
 
 **Aliases:** /
+
+<br><br>
+
+> !format
+
+**Beschreibung:** Verlinkt die Hilfeseite zu der Discord-Formatierung.
+
+**Berechtigungen:** /
+
+**Aliases:** `!markdown`
 
 <br><br>
 
