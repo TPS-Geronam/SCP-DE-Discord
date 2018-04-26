@@ -25,3 +25,5 @@
       - fixed !youtube
       - added !image
       - minor fixes
+    b:
+      - hotfix
