@@ -21,3 +21,7 @@
     - optimized some commands and parameters
     - sanitized Sentry PMs
     - fixes
+    a:
+      - fixed !youtube
+      - added !image
+      - minor fixes
