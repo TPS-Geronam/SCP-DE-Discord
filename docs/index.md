@@ -248,13 +248,33 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
-> !google <text>
+> !google <suchbegriff>
 
-**Beschreibung:** Verlink etwas bei Google, indem `<text>` an `https://www.google.de/`angehängt wird.
+**Beschreibung:** Googelt nach einem Suchbegriff.
 
-**Berechtigungen:** /
+**Berechtigungen:** `Personal`-Rolle
 
-**Aliases:** `!g <text>`
+**Aliases:** `!g <suchbegriff>`
+
+<br><br>
+
+> !youtube <suchbegriff>
+
+**Beschreibung:** Sucht nach einem/r Video/Kanal/Playlist auf YouTube.
+
+**Berechtigungen:** `Personal`-Rolle
+
+**Aliases:** `!y <suchbegriff>`
+
+<br><br>
+
+> !image <suchbegriff>
+
+**Beschreibung:** Sucht nach einem Bild auf Google.
+
+**Berechtigungen:** `Personal`-Rolle
+
+**Aliases:** `!img <suchbegriff>`
 
 <br><br>
 
@@ -441,6 +461,26 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 <br><br>
 
 ## Spezielle Commands
+
+> !report <user>
+
+**Beschreibung:** Meldet einen User. Bei drei Meldungen wird der entsprechende User stummgeschaltet. `<user>` entspricht dem User in Form eines Pings (`@Username#1234`). Missbrauch wird geahndet.
+
+**Berechtigungen:** `Personal`-Rolle oder `Internationales Personal`-Rolle
+
+**Aliases:** /
+
+<br><br>
+
+> !raid
+
+**Beschreibung:** Aktiviert den Raid- und Spam-Schutzmodus. Kann nur von `O4`-Mitgliedern deaktiviert werden.
+
+**Berechtigungen:** `Personal`-Rolle für das Aktivieren; `O4`-Rolle für das Deaktivieren.
+
+**Aliases:** /
+
+<br><br>
 
 > !guid
 
