@@ -184,6 +184,38 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
+## Google-Commands
+
+> !google <suchbegriff>
+
+**Beschreibung:** Googelt nach einem Suchbegriff.
+
+**Berechtigungen:** `Personal`-Rolle
+
+**Aliases:** `!g <suchbegriff>`
+
+<br><br>
+
+> !youtube <suchbegriff>
+
+**Beschreibung:** Sucht nach einem/r Video/Kanal/Playlist auf YouTube.
+
+**Berechtigungen:** `Personal`-Rolle
+
+**Aliases:** `!y <suchbegriff>`
+
+<br><br>
+
+> !image <suchbegriff>
+
+**Beschreibung:** Sucht nach einem Bild auf Google.
+
+**Berechtigungen:** `Personal`-Rolle
+
+**Aliases:** `!img <suchbegriff>`
+
+<br><br>
+
 ## Kritik-Commands
 
 > !kritik liste
@@ -245,36 +277,6 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 **Berechtigungen:** /
 
 **Aliases:** `!int-s-o <link>`
-
-<br><br>
-
-> !google <suchbegriff>
-
-**Beschreibung:** Googelt nach einem Suchbegriff.
-
-**Berechtigungen:** `Personal`-Rolle
-
-**Aliases:** `!g <suchbegriff>`
-
-<br><br>
-
-> !youtube <suchbegriff>
-
-**Beschreibung:** Sucht nach einem/r Video/Kanal/Playlist auf YouTube.
-
-**Berechtigungen:** `Personal`-Rolle
-
-**Aliases:** `!y <suchbegriff>`
-
-<br><br>
-
-> !image <suchbegriff>
-
-**Beschreibung:** Sucht nach einem Bild auf Google.
-
-**Berechtigungen:** `Personal`-Rolle
-
-**Aliases:** `!img <suchbegriff>`
 
 <br><br>
 
