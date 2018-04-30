@@ -10,9 +10,9 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 `Aliases` sind alternative Namen der Commands.
 
-## Commands
+### Commands
 
-### Allgemeine Commands
+## Allgemeine Commands
 
 > !help
 
@@ -124,7 +124,7 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
-#### Tag-Commands
+## Tag-Commands
 
 **Q:** Was sind Tags?
 
@@ -184,7 +184,7 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
-#### Kritik-Commands
+## Kritik-Commands
 
 > !kritik liste
 
@@ -216,7 +216,7 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
-### Link-Commands
+## Link-Commands
 
 > !seite-o <link>
 
@@ -408,7 +408,7 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
-#### Such-Commands
+## Such-Commands
 
 > !search <zweig> <name>
 
@@ -440,7 +440,7 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 <br><br>
 
-### Spezielle Commands
+## Spezielle Commands
 
 > !guid
 
