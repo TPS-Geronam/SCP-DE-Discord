@@ -10,7 +10,7 @@ Diese Seite enthält die Dokumentation zu KIRA_BOT, dessen Commands und Events. 
 
 `Aliases` sind alternative Namen der Commands.
 
-### Commands
+# Commands
 
 ## Allgemeine Commands
 
