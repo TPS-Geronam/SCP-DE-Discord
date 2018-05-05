@@ -1,29 +1,6 @@
-2.6.0: 
-    - added antispam
-            - added !report <user>
-            - added !raid
-    - now uses Google & YouTube API
-            - added !youtube
-            - changed !google
-    - added !admin_ set bufferDuplicate
-    - added !admin_ set bufferSameAuthor
-    - added !admin_ set interval
-    - added !admin_ set maxChars
-    - added !admin_ set invervalInvite
-    - added !admin_ set interC
-    - added !admin_ set reportsUntilMute
-    - optimized a bunch of link commands with embeds
-    - optimized !feedback
-    - optimized !branch
-    - optimized !goi
-    - optimized !autor
-    - optimized !artwork
-    - optimized some commands and parameters
-    - sanitized Sentry PMs
+2.6.1: 
+    - added !admin restart
+    - added new tags
+    - bot now adds itself to autostart
+    - changed update-notification
     - fixes
-    a:
-      - fixed !youtube
-      - added !image
-      - minor fixes
-    b:
-      - hotfix
