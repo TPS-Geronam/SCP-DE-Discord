@@ -1,6 +1,11 @@
-2.6.1: 
-    - added !admin restart
-    - added new tags
-    - bot now adds itself to autostart
-    - changed update-notification
+2.6.2: 
+    - added shared ban list
+      - POST on ban
+      - GET on joined user
+    - added "set joinedBool"
+    - added "set userJoinedChannel"
+    - added SecurityModule
+      - encryption of raid-log messages
+    - disabled chatlogs
+    - more stuff I don't remember
     - fixes
