@@ -7,5 +7,6 @@
     - added SecurityModule
       - encryption of raid-log messages
     - disabled chatlogs
+    - moved some stuff over to app settings
     - more stuff I don't remember
     - fixes
