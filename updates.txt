@@ -9,5 +9,6 @@
     - disabled chatlogs
     - moved some stuff over to app settings
     - !raid changes color of "Personal"
+    - added UA to scpper-commands
     - more stuff I don't remember
     - fixes
