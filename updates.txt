@@ -1,4 +1,6 @@
-2.6.3: 
-    - added !admin_ purge
-    - added -_nonews to AoD
+2.6.4: 
+    - added TimerService
+    - added !remind
+    - added LoggingService
+    - now logs Verbose in files/logs
     - fixes
