@@ -1,1 +1,42 @@
-F2.6.2:
+F2.6.2: 
+  - sanitized Sentry PMs
+  - optimized !branch
+  - added !admin restart
+  - added !admin_ set bufferDuplicate
+  - added !admin_ set bufferSameAuthor
+  - added !admin_ set interval
+  - added !admin_ set maxChars
+  - added !admin_ set invervalInvite
+  - added !admin_ set interC
+  - added !admin_ set reportsUntilMute
+  - added !admin_ set feedbackC
+  - added !admin_ purge
+  - added !admin_ set feedbackBlock <IUser>
+  - now uses Google & YouTube API
+    - added !youtube
+    - changed !google
+    - added !img
+  - added antispam
+    - added !report <user>
+    - added !raid
+  - added more tags
+  - fixed new lines in tags
+  - added UA to scpper commands
+  - moved some stuff over to app settings
+  - added SecurityModule
+    - encryption of raid-log messages
+  - added !admin_ set joinedBool
+  - added !admin_ set userJoinedChannel
+  - added shared ban list
+    - POST on ban
+    - GET on joined user
+  - bot now adds itself to autostart
+  - removed autoRespondName and all related instances
+  - optimized appVer
+  - added -_nonews to AoD
+  - added LoggingService
+    - now logs Verbose in files/logs
+  - added TimerService
+  - added !remind
+  - more stuff I don't remember
+  - fixes
