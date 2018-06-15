@@ -1,6 +1,4 @@
-2.6.4: 
-    - added TimerService
-    - added !remind
-    - added LoggingService
-    - now logs Verbose in files/logs
-    - fixes
+2.6.5: 
+    - added !wikipedia
+    - added TwitterService
+        - posts AoD on Twitter
