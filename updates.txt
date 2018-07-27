@@ -1,7 +1,2 @@
-2.6.5: 
-    - added !wikipedia
-    - added TwitterService
-        - posts AoD on Twitter
-        - added !tw (disabled)
-    - disabled !remind
-    - fixes
+2.6.6: 
+    - quickfix
