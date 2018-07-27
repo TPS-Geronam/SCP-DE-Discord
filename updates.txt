@@ -2,3 +2,6 @@
     - added !wikipedia
     - added TwitterService
         - posts AoD on Twitter
+        - added !tw (disabled)
+    - disabled !remind
+    - fixes
