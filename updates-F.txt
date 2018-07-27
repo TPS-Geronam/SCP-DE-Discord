@@ -1,3 +1,6 @@
-F2.6.4: - added TwitterService
-        - now tweets AoD
-        - added !tweet
+F2.6.5:
+  - added !stop
+  - added !admin_ set stopC
+  - disabled !remind
+  - fixes
+  - I honestly don't know what else I was working on here, so there's that
