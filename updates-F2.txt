@@ -1,2 +1,2 @@
 2F2.2.6:
-  
+  - first release
